@@ -8,17 +8,17 @@
 
 
 
+
+
                 ///////////////   29.11.2023 /////////////////
 
-function Employee(fullName, age, position) {
-    this.fullName =fullName;
-    this.age =age;
-    this.position= position;
-}
+// function Employee(fullName, age, position) {
+//     this.fullName =fullName;
+//     this.age =age;
+//     this.position= position;
+// }
 
-let emp1 = new Employee("John Doe", 25, "Fronted");
-
-
+// let emp1 = new Employee("John Doe", 25, "Fronted");
 
 
 
@@ -33,8 +33,185 @@ let emp1 = new Employee("John Doe", 25, "Fronted");
 // console.log(car);
 
 
-const obj = {
-    fullName:"test",
-    age:34,
-    position:"Fronted"
-}
+// const obj = {
+//     fullName:"test",
+//     age:34,
+//     position:"Fronted"
+// }
+
+
+
+/////////////   02.12.2023 /////////
+
+//// array yaradin icinde random datalar olsun.
+//// 2 ayri object yaradin
+//// 1-ci objecti 2-cinin daxiline spread edin
+///esas objecti arrayin daxiline yazin
+///arrayin sonuna basqa bir array spread edin
+
+
+
+
+//   const obj = {
+//      fullName:"test",
+//      age:34,
+//      position:"Fronted"
+
+
+//   }
+
+// const obj2 = {
+//      ...obj,
+//      Name:"testoc",
+//      age:38,
+//      position:"Backend"
+// }
+
+// const arr1 = [3,4,5]
+// const arr2 =[1,2,obj2,...arr1]
+// console.log(arr2);
+
+
+
+
+             ////////   09.12.2023 /////////////////
+
+// const start_btn = document.querySelector('.btn_start');
+//  const stop_btn = document.querySelector('.btn_stop');
+// const toggleBtn = document.querySelector('.btn_toggle');
+
+
+
+// let interval
+// toggleBtn.addEventListener("click",function (){
+//   if(interval) {
+//     clearInterval(interval);
+//     interval = undefined;
+//   } else {
+//     interval = setInterval (()=>{
+//         console.log("Intervallll");
+//     }, 2000);
+//     toggleBtn.innerHTML = "Start";
+//   }
+// });
+
+
+// start_btn.addEventListener("click", function () {
+//     fetch('https://jsonplaceholder.typicode.com/todos')
+//     .then(response => response.json())
+//     .then(data => console.log(data)) 
+   
+// })
+
+// stop_btn.addEventListener("click", function () {
+//     fetch('https://jsonplaceholder.typicode.com/todos/2')
+
+//     .then(response => response.json())
+//     .then(data => console.log(data)) 
+   
+// })
+
+
+/// Write a function that takes an object (a) and a string (b) as argument. Return true if the object has a property with key 'b'. Return false otherwise. Hint: test case 3 is a bit tricky because the value of property "z" is undifined.But the property itself exits. 
+
+// function hasProperty(obj, key) {
+//     return key in obj;
+// }
+
+// // Example usage:
+// const myObject = { name: 'John', age: 25, z: undefined };
+// const keyToCheck = 'z';
+
+// const hasKey = hasProperty(myObject, keyToCheck);
+// console.log(hasKey); // This will output: true
+
+
+
+
+
+
+
+
+
+
+                       //////// 13.12.2023 //////////////////////
+
+
+const post_btn= document.querySelector('.btn_post');
+const get_btn = document.querySelector('.btn_get');
+const put_btn = document.querySelector('.btn_put');
+const delete_btn = document.querySelector('.btn_delete');
+
+
+
+// post_btn.addEventListener("click", ()=> {
+//     fetch('https://jsonplaceholder.typicode.com/posts', {
+//         method: 'POST',
+//         body: JSON.stringify({
+//           id: 1,
+//           title: 'foo',
+//           body: 'bar',
+//           userId: 1,
+//         }),
+//         headers: {
+//           'Content-type': 'application/json; charset=UTF-8',
+//         },
+//       })
+//         .then((response) => response.json())
+//         .then((json) => console.log(json));
+            
+// })
+
+
+  // get_btn.addEventListener("click", ()=> {
+  // fetch('https://dummyjson.com/products/1')
+  // .then(res => res.json())
+  // .then(json => console.log(json))
+            
+              
+  // })
+
+
+  // put_btn.addEventListener("click", ()=> {
+  //   fetch('https://jsonplaceholder.typicode.com/posts/1', {
+  //     method: 'PUT',
+  //     body: JSON.stringify({
+  //       id: 1,
+  //       title: 'foo',
+  //       body: 'bar',
+  //       userId: 1,
+  //     }),
+  //     headers: {
+  //       'Content-type': 'application/json; charset=UTF-8',
+  //     },
+  //   })
+  //     .then((response) => response.json())
+  //     .then((json) => console.log(json));
+              
+  // })
+
+
+
+  // delete_btn.addEventListener("click", ()=> {
+  //   fetch('https://dummyjson.com/products/1', {
+  //       method: 'DELETE',
+  //     })
+  //     .then(res => res.json())
+  //     .then(console.log);
+              
+  // })
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+            
