@@ -137,10 +137,10 @@
                        //////// 13.12.2023 //////////////////////
 
 
-const post_btn= document.querySelector('.btn_post');
-const get_btn = document.querySelector('.btn_get');
-const put_btn = document.querySelector('.btn_put');
-const delete_btn = document.querySelector('.btn_delete');
+// const post_btn= document.querySelector('.btn_post');
+// const get_btn = document.querySelector('.btn_get');
+// const put_btn = document.querySelector('.btn_put');
+// const delete_btn = document.querySelector('.btn_delete');
 
 
 
@@ -204,8 +204,35 @@ const delete_btn = document.querySelector('.btn_delete');
   
   
 
+// const ac = document.querySelector(".aç");
+// const kap = document.querySelector(".kapat");
+// const op = document.querySelector(".open");
+// const clo = document.querySelector(".close");
 
 
+
+
+// op.addEventListener('click', ()=>{
+
+// })
+
+localStorage.setItem("name", "Baku");
+localStorage.setItem("age", 200);
+localStorage.setItem("hobbies", JSON.stringify(["Tenis","Football"]));
+localStorage.setItem("properties", JSON.stringify({name:"Test", email:"test@gmail.com"}));
+let hobbies = localStorage.getItem("hobbies");
+let properties = localStorage.getItem("properties");
+
+console.log(JSON.parse (hobbies), JSON.parse (properties));
+
+// console.log(localStorage.getItem("age"));
+
+// localStorage.removeItem("name");
+// localStorage.clear()
+
+
+// sessionStorage.setItem("name", "Moskva");
+// sessionStorage.setItem("age", 500);
 
 
 
