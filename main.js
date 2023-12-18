@@ -216,14 +216,14 @@
 
 // })
 
-localStorage.setItem("name", "Baku");
-localStorage.setItem("age", 200);
-localStorage.setItem("hobbies", JSON.stringify(["Tenis","Football"]));
-localStorage.setItem("properties", JSON.stringify({name:"Test", email:"test@gmail.com"}));
-let hobbies = localStorage.getItem("hobbies");
-let properties = localStorage.getItem("properties");
+// localStorage.setItem("name", "Baku");
+// localStorage.setItem("age", 200);
+// localStorage.setItem("hobbies", JSON.stringify(["Tenis","Football"]));
+// localStorage.setItem("properties", JSON.stringify({name:"Test", email:"test@gmail.com"}));
+// let hobbies = localStorage.getItem("hobbies");
+// let properties = localStorage.getItem("properties");
 
-console.log(JSON.parse (hobbies), JSON.parse (properties));
+// console.log(JSON.parse (hobbies), JSON.parse (properties));
 
 // console.log(localStorage.getItem("age"));
 
@@ -239,6 +239,50 @@ console.log(JSON.parse (hobbies), JSON.parse (properties));
 
 
 
+// let text = "Əli";
+
+// // console.log(text[0]+text[1]+text[2]);
+// // console.log(text[2]+text[1]+text[0]);
+
+// for(let i=0; i<text.length; i++){
+//   console.log(text[i]);
+// }
 
 
-            
+
+
+// ///   Sozlerin tersine yazilmasi
+
+// function reverseText(text) {
+//   let newtext ="";
+//   for(let i=text.length-1; i>=0;i--) {
+//     newtext+=text[i];
+//   }
+//   return newtext;
+// }
+// console.log(reverseText("Sabah"));
+
+
+
+////   tekrar edilen edeler ucun funksiya yazin
+
+// let numsArr = [1,2,3,4,5,6,7,8,9,1,2,3,4];
+
+// function findRepeatedNumbers(nums){
+// let repeatedNumsArr=[];
+
+// for(let i =0;i < nums.length; i++) {
+//   for(let j = i + 1; j < nums.length; j++){
+//   if(nums[i] == nums[j]) {
+//     repeatedNumsArr.push(nums[i]);
+//   }
+// }
+// }
+// return repeatedNumsArr;
+// }
+// alert(findRepeatedNumbers(numsArr));
+
+
+
+
+
