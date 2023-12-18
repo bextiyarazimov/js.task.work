@@ -284,5 +284,13 @@
 
 
 
+/// birden 100 e qeder dovr etme cut reqemlerle
+
+
+  for(let i=1;i<100;i++){
+    if(i%2==0){
+      console.log(i);
+    }
+  }
 
 
